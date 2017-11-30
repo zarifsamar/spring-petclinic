@@ -206,8 +206,6 @@
           </dependency>
         </dependencies>
       </plugin>
-    </plugins>
-
       <plugin>
         <groupId>com.sonatype.clm</groupId>
         <artifactId>clm-maven-plugin</artifactId>
@@ -217,6 +215,7 @@
           <stage>develop</stage>
         </configuration>
       </plugin>
+    </plugins>   
   </build>
   <reporting>
     <plugins>
