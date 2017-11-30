@@ -211,7 +211,8 @@
         <artifactId>clm-maven-plugin</artifactId>
         <version>2.6.0-01</version>
         <configuration>
-          <applicationId>springsampleapp</applicationId>
+          <applicationId>spring-app</applicationId>
+	  <serverUrl>http://54.246.185.251/sonar</serverUrl>
           <stage>develop</stage>
         </configuration>
       </plugin>
